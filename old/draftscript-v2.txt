@@ -1,0 +1,55 @@
+Hello! 
+
+I'm Gabriel, and this is my proposal pitch for my Final Project. 
+
+Before I proceed, please note that I'll be working on the "Fake News Detection" template from the core module CM3060, "Natural Language Processing".
+
+So, why fake news detection? 
+
+The motivation behind my project is simple - misinformation has real-world consequences. 
+
+For journalism to be trustworthy, journalists must not only be objective, but they must also be perceived to be objective. Fake news erodes trust in journalism, polarising communities and fueling hostility. 
+
+This social vulnerability can then be exploited further - there is real economic impact when fake, baseless rumours about a company's fiscal health may crash stock prices to the unfair detriment of investors. 
+
+Misinformation during crises leads to panic, as we saw during the COVID-19 pandemic when Singaporeans panic-bought masks and staple foods in misguided fears of insufficient supply. 
+
+Disinformation campaigns can distort public opinion, undermining & harming democratic processes. 
+
+More so than ever, people need help to quickly and effectively verify the truthfulness and credibility of information presented to them. 
+
+Of course, there has been other work already done to detect fake news.
+
+The sample project included with the project brief exclusively uses a small dataset of unknown origin. 
+
+Small datasets lack diversity and are insufficient for generalisation to real-world scenarios. Additionally, the exclusive reliance on a Passive Aggressive Classifier is way too simple to handle the nuanced language in real-world fake news.
+
+As such, due to those limitations, while this project is effective for the purpose of a simple technical demonstration, a real-world deployment must incorporate larger, more diverse datasets, and a more sophisticated model architecture. 
+
+
+Next, websites like Snopes utilise human fact-checking, which effectively ensures accuracy, but lacks immediacy to address viral information in real-time and scalability for the sheer volume of misinformation available online. 
+
+This highlights the need for automated systems for immediacy and scalability. 
+
+Social media platforms Facebook and X (formerly Twitter) flag information by leveraging vast datasets and user reports, but these systems face criticism for inconsistency and bias, which is further exacerbated when simplistic keyword-based filtering fails to distinguish between opinion and misinformation. 
+
+Additionally, these platforms' need to balance misinformation prevention against censorship concerns fuels public skepticism about these filters. 
+
+Lastly, the LIAR dataset that's widely used in academic settings contains statements from Politifact, and is used to train machine learning models to detect fake news. 
+
+While it is a foundation that has enabled the development of increasingly-accurate fake news detection models, the LIAR dataset also has limitations due to the relatively small size of the dataset, and its reliance on English data. Many models trained on this dataset struggle to generalise across various different topics and sources. 
+
+As such, the use of limited datasets like LIAR suggest that an effective system needs access to large, cross-domain datasets, and the ability to process data in various languages. 
+
+Each of the above solutions demonstrates progress, but also highlights gaps. My project aims to address these gaps.
+
+For scalability and speed, I will use transformer-based models such as BERT that are conducive to my model achieving context-aware language understanding, allowing it to process large volumes of text quickly and accurately.
+
+To address adaptability concerns, my model will be trained on diverse datasets and adversarial training techniques to improve accuracy and allow for cross-topic generalisation. 
+
+Finally, fostering user trust will be a guiding principle. My solution will offer brief explanations of why content is flagged as a transparency measure rather than simply labeling content, to address the bias and trust issues that current social media filters face. 
+
+
+In summary, my project will build on the foundations of previous fake news detection solutions to create an adaptable and scalable system that will foster users' trust and empower them in navigating an overwhelmingly complex information landscape. 
+
+Thank you for your time. 
