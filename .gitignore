@@ -1,0 +1,11 @@
+# ignore everything in the product directory
+/product/*
+
+# but don't ignore these specific directories and files
+!/product/data/
+!/product/data/**
+!/product/*.* 
+
+# ignore Jupyter checkpoints
+/.ipynb_checkpoints/
+**/.ipynb_checkpoints/
