@@ -9,3 +9,9 @@
 # ignore Jupyter checkpoints
 /.ipynb_checkpoints/
 **/.ipynb_checkpoints/
+
+# ignore 'old' directory
+/old/* 
+
+# ignore main directory
+/
