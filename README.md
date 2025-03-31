@@ -13,7 +13,7 @@ That is the only file that relates to the final version of my codebase reference
 Please only launch that file. 
 
 If you wish to run the codebase, please:
-1. In cmd, run pip install -r product/requirements.txt
+1. Run the command: pip install -r product/requirements.txt
 2. As WELFake_Dataset.csv file is excessively large, you may need to download WELFake_dataset.csv from this link: https://zenodo.org/records/4561253/files/WELFake_Dataset.csv?download=1
 3. If you manually downloaded WELFake_Dataset.csv from the above link, move it to product/data/welfake_dataset
 4. Run all cells in Jupyter Notebook. 
