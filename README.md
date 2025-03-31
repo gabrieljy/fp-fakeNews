@@ -14,9 +14,10 @@ Please only launch that file.
 
 If you wish to run the codebase, please:
 1. Run the command: pip install -r product/requirements.txt
-2. As WELFake_Dataset.csv file is excessively large, you may need to download WELFake_dataset.csv from this link: https://zenodo.org/records/4561253/files/WELFake_Dataset.csv?download=1
-3. If you manually downloaded WELFake_Dataset.csv from the above link, move it to product/data/welfake_dataset
-4. Run all cells in Jupyter Notebook. 
+2. Download the appropriate PyTorch ('torch') installation for your system. Please refer to this link: https://pytorch.org/get-started/locally/
+3. As WELFake_Dataset.csv file is excessively large, users without Git LFS set up will need to download WELFake_dataset.csv from this link: https://zenodo.org/records/4561253/files/WELFake_Dataset.csv?download=1
+4. If you manually downloaded WELFake_Dataset.csv from the above link, move it to the product/data/welfake_dataset directory.
+5. Run all cells in Jupyter Notebook. 
 
 Other notable folders:
 
