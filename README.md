@@ -12,7 +12,9 @@ product/main_pipeline_ver7.ipynb
 That is the only file that relates to the final version of my codebase referenced in my report.
 Please only launch that file. 
 
-If you wish to run the codebase, please run all cells. 
+If you wish to run the codebase, please:
+1. in cmd, run pip install product/requirements.txt
+2. run all cells. 
 
 Other notable folders:
 
